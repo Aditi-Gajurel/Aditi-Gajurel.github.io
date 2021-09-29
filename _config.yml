@@ -1,17 +1,15 @@
 title:            "Aditi-Gajurel"
-tagline:          A beautiful theme.
 description:      This is my personal homepage.
-canonical: http://jekyll.gtat.me
+
 
 # Owner/author information
 owner:
   name:           Aditi Gajurel
   avatar:         avatar.png
-  bio:            "Aesthete & Athlete"
+  bio:            "ML Engineer"
   email:          aditigajurel32@gmail.com
   twitter:        aditigajurel
   github:         aditi-gajurel
-  disqus:         balzac
   location:       "Kathmandu, Nepal"
   # Plug in your disqus shortname!
 
@@ -31,12 +29,9 @@ links:
   - title: Github
     url: https://github.com/aditi-gajurel
     external: true
-  - title: Cole Who?
-    url: http://coletownsend.com
-    external: true
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    America/New_York
+timezone:    NST (Nepal Standard Time)
 future:      true
 highlighter: pygments
 markdown:    kramdown
