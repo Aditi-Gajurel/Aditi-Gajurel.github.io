@@ -1,20 +1,18 @@
-title:            Balzac
+title:            "Aditi-Gajurel"
 tagline:          A beautiful theme.
-description:      Describe your website.
+description:      This is my personal homepage.
 canonical: http://jekyll.gtat.me
 
 # Owner/author information
 owner:
-  name:           Cole Townsend
+  name:           Aditi Gajurel
   avatar:         avatar.png
   bio:            "Aesthete & Athlete"
-  email:          cole@coletownsend.com
-  twitter:        twnsndco
-  github:         coletownsend
-  instagram:      ctrunsthis
-  dribbble:       coletownsend
+  email:          aditigajurel32@gmail.com
+  twitter:        aditigajurel
+  github:         aditi-gajurel
   disqus:         balzac
-  location:       "Buffalo, NY"
+  location:       "Kathmandu, Nepal"
   # Plug in your disqus shortname!
 
 tools:
@@ -31,7 +29,7 @@ links:
   - title: About
     url: /about
   - title: Github
-    url: https://github.com/ColeTownsend/Balzac-for-Jekyll
+    url: https://github.com/aditi-gajurel
     external: true
   - title: Cole Who?
     url: http://coletownsend.com
