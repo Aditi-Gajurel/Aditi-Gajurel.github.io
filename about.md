@@ -10,6 +10,7 @@ This is built on Semantic.gs grid framework which I edited a bit to make it flui
 
 ### Features
 * flexible, uses max-width for responsive goodness
+* Let's see if this gets on output section
 * responsive drop down menu
 * retina images using @2x
 * post loop in the footer showing 3 latest post
