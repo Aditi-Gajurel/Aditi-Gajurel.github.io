@@ -1,25 +1,23 @@
-title:            "Aditi-Gajurel"
-description:      This is my personal homepage.
-
+title: "Aditi-Gajurel"
+description: This is my personal homepage.
 
 # Owner/author information
 owner:
-  name:           Aditi Gajurel
-  avatar:         avatar.png
-  bio:            "ML Engineer"
-  email:          aditigajurel32@gmail.com
-  twitter:        aditigajurel
-  github:         aditi-gajurel
-  location:       "Kathmandu, Nepal"
+  name: Aditi Gajurel
+  bio: "ML Engineer"
+  email: aditigajurel32@gmail.com
+  twitter: aditigajurel
+  github: aditi-gajurel
+  location: "Kathmandu, Nepal"
   # Plug in your disqus shortname!
 
 tools:
-  standards:      "HTML, SCSS, Jekyll"
-  software:       "git"
+  standards: "HTML, SCSS, Jekyll"
+  software: "git"
 
 # Open Graph customization
 opengraph:
-  locale:           en_US
+  locale: en_US
 
 # Links to include in top navigation
 # For external links add external: true
@@ -31,10 +29,10 @@ links:
     external: true
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    NST (Nepal Standard Time)
-future:      true
+timezone: NST (Nepal Standard Time)
+future: true
 highlighter: pygments
-markdown:    kramdown
+markdown: kramdown
 
 kramdown:
   auto_ids: true
@@ -51,10 +49,20 @@ kramdown:
     coderay_css: class
 
 sass:
-    style: :compressed
+  style: :compressed
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink:   /:categories/:title
+permalink: /:categories/:title
 
 include: [".htaccess"]
-exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp"]
+exclude:
+  [
+    "lib",
+    "config.rb",
+    "Capfile",
+    "config",
+    "log",
+    "Rakefile",
+    "Rakefile.rb",
+    "tmp",
+  ]
