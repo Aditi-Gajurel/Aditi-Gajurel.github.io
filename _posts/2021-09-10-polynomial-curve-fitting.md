@@ -63,5 +63,11 @@ __Determinine the unknown parameters,  w__
 
 The value of the coefficients is found by fitting the polynomial to the training dataset. For this, we minimize the error function that calculates the misfit between function  𝑦(𝑥,𝑤)  and the training data points. One of the widely used error functions is the Sum of the Squares of the Errors (SSE).
 
+<figure>
+	<img src="/images/1_5.png">
+	<figcaption></figcaption>
+</figure>
+
+1/2  has a convenience, which we will see in later chapters. SSE is a non-negative quantity and we wish to choose unknown parameters, w to make SSE minimum. The error function is quadratic so its first derivative for coefficients, w will be a linear equation with w as unknown. So, we can solve for the unique values of w, which we will denote by w∗ since this set of parameters minimize the error function's value and the resulting curve is given by 𝑦(𝑥,𝑤∗).
 
 
