@@ -54,5 +54,14 @@ Now, let's consider a simple approach for curve fitting. Consider a polyomial fu
 	<figcaption></figcaption>
 </figure>
 
+<figure>
+	<img src="/images/1_4.png">
+	<figcaption></figcaption>
+</figure>
+
+__Determinine the unknown parameters,  w__
+
+The value of the coefficients is found by fitting the polynomial to the training dataset. For this, we minimize the error function that calculates the misfit between function  𝑦(𝑥,𝑤)  and the training data points. One of the widely used error functions is the Sum of the Squares of the Errors (SSE).
+
 
 
