@@ -5,11 +5,13 @@ comments: true
 category: articles
 ---
 Polynomial Curve Fitting is an example of Regression, a supervised machine learning algorithm.
-- __End Goal of Curve Fitting__: We observe a real-valued input variable, $x$, and we intend to predict the target variable, $t$. Polynomial Curve fitting is a generalized term; curve fitting with various input variables, $x$, $y$, and many more.
+- __End Goal of Curve Fitting__: We observe a real-valued input variable, __x__, and we intend to predict the target variable, __t__. Polynomial Curve fitting is a generalized term; curve fitting with various input variables, __x__, __y__, and many more.
 
 We will see curve fitting on a synthetic dataset.
 
-For the synthetic dataset, we will generate the data points from a function <img src="https://render.githubusercontent.com/render/math?math=sin{2 \pi}x" height="25" width="25"> with some random normal noise included.
+For the synthetic dataset, we will generate the data points from a function sin2pix with some random normal noise included.
+
+Let's see if it comes or not.
 
 ```
 ## Imports
@@ -32,6 +34,9 @@ plt.title("Synthetic data points")
 
 plt.show()
 ```
-
+<figure>
+	<img src="/images/1_1.png">
+	<figcaption></figcaption>
+</figure>
 
 
