@@ -11,7 +11,6 @@ We will see curve fitting on a synthetic dataset.
 
 For the synthetic dataset, we will generate the data points from a function sin2pix with some random normal noise included.
 
-Let's see if it comes or not.
 
 ```
 ## Imports
@@ -31,12 +30,28 @@ plt.scatter(x, t)
 plt.xlabel("Observations, (x)")
 plt.ylabel("Targets, (t)")
 plt.title("Synthetic data points")
-
 plt.show()
 ```
 <figure>
 	<img src="/images/1_1.png">
+	<figcaption>Figure 1.1</figcaption>
+</figure>
+
+## In mathematical Notations
+
+<figure>
+	<img src="/images/1_2.png">
 	<figcaption></figcaption>
 </figure>
+
+The scatter plot in Figure 1.1 possesses an underlying regularity which we want to learn. This is an intricate problem since we have a finite number of data set with noises embedded.
+
+Now, let's consider a simple approach for curve fitting. Consider a polyomial function of the form:
+
+<figure>
+	<img src="/images/1_3.png">
+	<figcaption></figcaption>
+</figure>
+
 
 
