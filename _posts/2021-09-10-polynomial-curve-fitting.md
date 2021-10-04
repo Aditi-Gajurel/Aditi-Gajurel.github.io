@@ -5,11 +5,11 @@ comments: true
 category: articles
 ---
 Polynomial Curve Fitting is an example of Regression, a supervised machine learning algorithm.
-- __End Goal of Curve Fitting__: We observe a real-valued input variable, __x__, and we intend to predict the target variable, __t__. Polynomial Curve fitting is a generalized term; curve fitting with various input variables, __x__, __y__, and many more.
+- __End Goal of Curve Fitting__: We observe a real-valued input variable,  𝑥 , and we intend to predict the target variable,  𝑡 . Polynomial Curve fitting is a generalized term; curve fitting with various input variables,  𝑥 ,  𝑦 , and many more.
 
 We will see curve fitting on a synthetic dataset.
 
-For the synthetic dataset, we will generate the data points from a function sin2pix with some random normal noise included.
+For the synthetic dataset, we will generate the data points from a function  sin2𝜋𝑥  with some random normal noise included.
 
 
 ```
@@ -70,4 +70,68 @@ The value of the coefficients is found by fitting the polynomial to the training
 
 1/2  has a convenience, which we will see in later chapters. SSE is a non-negative quantity and we wish to choose unknown parameters, w to make SSE minimum. The error function is quadratic so its first derivative for coefficients, w will be a linear equation with w as unknown. So, we can solve for the unique values of w, which we will denote by w∗ since this set of parameters minimize the error function's value and the resulting curve is given by 𝑦(𝑥,𝑤∗).
 
+
+__Determine the order of the polynomial,  M__
+
+Now, we need to find  M  for the curve.  M  is the order of the polynomial and selection of the order of the polynomial comes under a broad topic, Model Comparison or Model Selection.
+- With  M=0
+<figure>
+	<img src="/images/1_6.png">
+	<figcaption></figcaption>
+</figure>
+
+For the elucidation, we will see how the unique value for  w  is found out with  M=0 , since it is easiest among all possible valued of  M  to calculate manually. For  M=0 , the coefficient(unknown parameter) is denoted by  𝑤0 , so we wil find  𝑤0  now.
+
+The Error function fully expanded seems like:
+
+<figure>
+	<img src="/images/1_7.png">
+	<figcaption></figcaption>
+</figure>
+
+```
+from sympy import *
+w_0 = Symbol('w_0')
+E = .5 * ((w_0 - 1.76405235)**2 + (w_0 - 1.04294482)**2+ (w_0 - 1.96354574)**2+ (w_0 - 3.1069186)**2+ 
+        (w_0 - 2.20957813)**2+ (w_0 + 1.31929802)**2+ (w_0 - 0.08406301)**2+ (w_0 + 1.13616496)**2+ 
+        (w_0 + 0.74600646)**2+ (w_0 - 0.4105985)**2) 
+```
+
+Now, we compute the first derivative of  E(𝑤0)  with respect to  𝑤0  and solve it for  𝑤0 . Mathematically:
+
+<figure>
+	<img src="/images/1_8.png">
+	<figcaption></figcaption>
+</figure>
+
+In case, we choose higher  M , we would have more more unknown parameters, to state there would be  M+1 , unknown parameters and we would find all the unknown parameters by simply taking the partial derivative of the error function w.r.t to all the unknown parameters.
+
+
+```
+## Calculate the partial derivative w.r.t w_0
+Eprime = E.diff(w_0)
+
+## See the output
+print(Eprime)
+```
+Output: 10.0*w_0 - 7.38023171
+
+```
+## Solve the linear equation of Eprime by equating to 0.
+w_0 = solve(Eprime)
+print(w_0)
+```
+Output: [0.738023171000000]
+
+So, now this is the value for  𝑤0  to minimize the error function. Let's plot this line on the original data points set.
+
+<figure>
+	<img src="/images/1_9.png">
+	<figcaption></figcaption>
+</figure>
+
+```
+plt.scatter(x, t)
+plt.show()
+```
 
