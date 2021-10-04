@@ -48,6 +48,7 @@ The scatter plot in Figure 1.1 possesses an underlying regularity which we want 
 
 Now, let's consider a simple approach for curve fitting. Consider a polyomial function of the form:
 
+
 <figure>
 	<img src="/images/1_3.png">
 	<figcaption></figcaption>
