@@ -109,3 +109,31 @@ For the product rule, we will start with the formula and then interpret its mean
 
 Probability is all about determining the likelihood of the events.
 
+__Independent Events__
+
+Two or more events are called independent if the occurrence of one event doesn't affect the occurrence of any other events. For example probability of getting one on a first roll and then three in the second roll in a normal six-sided dice, because both events are independent of each other and have the probability of  1/6 .
+
+__Dependent Events__
+
+Two or more events are called dependent if the occurrence of one event affects the occurrence of other events. For example probability of getting an Ace in drawing the first card from a deck of the 52 cards and then getting a King in drawing the second card from the remaining 51 cards.
+
+These events are dependent because drawing an Ace changes the probability of getting King in the second place since the sample spaces decrease from 52 to 51.
+
+So, now we know the definition of Independent events and dependent events, let's proceed to the product rule. We have a product rule for both independent and dependent events.
+
+A question to start: What is the probability of rolling  3  and then  1  on normal six-sided dice? Since these are independent events, we will use the product rule for independent events, i.e.,
+
+P(getting three on first roll and getting one on second roll)=P(getting three on first roll)∗P(getting one on the second roll)
+ 
+
+P(getting three on first roll and getting one on second roll)=1/6∗1/6=1/36
+
+Generally for the two independent events,  𝐴  and  𝐵 , the multiplication(Product rule, AND rule) states:
+
+P(A and B)=P(A)∗P(B)
+
+Let's consider a different scenario.
+
+Consider drawing two cards from a deck of  52  cards. What is the probability of getting a red card on the first draw and then getting again a red card on the second draw without replacement?
+ 
+
