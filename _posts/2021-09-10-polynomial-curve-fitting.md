@@ -54,11 +54,13 @@ Now, let's consider a simple approach for curve fitting. Consider a polyomial fu
 	<figcaption></figcaption>
 </figure>
 
-<figure>
-	<img src="/images/1_4.png">
-	<figcaption></figcaption>
-</figure>
+where,
 
+M = order of the polynomial
+
+𝑤0,𝑤1,...,𝑤𝑀 = polynomial coefficients (denoted by vector,  v )
+
+Remember:  𝑦(𝑥,𝑤)  is non linear function of  𝑥  but the linear function of coefficients,  𝑤 . Functions which are linear in terms of unknown parameters are called linear models.
 __Determinine the unknown parameters,  w__
 
 The value of the coefficients is found by fitting the polynomial to the training dataset. For this, we minimize the error function that calculates the misfit between function  𝑦(𝑥,𝑤)  and the training data points. One of the widely used error functions is the Sum of the Squares of the Errors (SSE).
@@ -100,9 +102,10 @@ E = .5 * ((w_0 - 1.76405235)**2 + (w_0 - 1.04294482)**2+ (w_0 - 1.96354574)**2+ 
 Now, we compute the first derivative of  E(𝑤0)  with respect to  𝑤0  and solve it for  𝑤0 . Mathematically:
 
 <figure>
-	<img src="/images/1_8.png">
+	<img src="/images/1_10.png">
 	<figcaption></figcaption>
 </figure>
+
 
 In case, we choose higher  M , we would have more more unknown parameters, to state there would be  M+1 , unknown parameters and we would find all the unknown parameters by simply taking the partial derivative of the error function w.r.t to all the unknown parameters.
 
@@ -125,10 +128,8 @@ Output: [0.738023171000000]
 
 So, now this is the value for  𝑤0  to minimize the error function. Let's plot this line on the original data points set.
 
-<figure>
-	<img src="/images/1_9.png">
-	<figcaption></figcaption>
-</figure>
+
+𝑦=0.739
 
 ```
 plt.scatter(x, t)
