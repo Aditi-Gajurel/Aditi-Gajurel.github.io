@@ -159,7 +159,7 @@ For any two events, we can say that:
 
 P(A and B)=P(A)∗P(B\|A)
  
-Here, the term  P(A|B)  is to be understood carefully. The vertical bar is read as "given". So,  P(A|B)  is the "probability of occurring A given than A has already occurred". This is often known with the name of Conditional Probability.
+Here, the term  P(A\|B)  is to be understood carefully. The vertical bar is read as "given". So,  P(A\|B)  is the "probability of occurring A given than A has already occurred". This is often known with the name of Conditional Probability.
 
 In our former example of drawing cards, we can see the implementation of this formula.
 
@@ -167,22 +167,22 @@ P(A) = P(Red card in first draw)
  
 P(B) = P(Red card in second draw)
  
-P(A and B) = P(Red card in first draw and Red card in second draw) = P(A)*P(B|A)
+P(A and B) = P(Red card in first draw and Red card in second draw) = P(A)*P(B\|A)
  
 Here in this case,
-P(B|A) = P(Red in the second draw given that Red is in the first draw)
+P(B\|A) = P(Red in the second draw given that Red is in the first draw)
  
 Since we know,
 P(A) = P(Red card in first draw) =26/52
  
 P(B|A) = P(Red in second draw given that Red is in first draw) =25/51
  
-P(A and B) = P(A)*P(B|A)=(26/52)∗(25/51)≈0.245
+P(A and B) = P(A)*P(B\|A)=(26/52)∗(25/51)≈0.245
 
 
 To sum up, the product rule says that we can multiply the probabilities of two events to get the probability of occurrence of both events, but we need to take the first event into account when considering the probability of the second event, in case the events are dependent. In the case of independent events,when the occurrence of one event doesn't impact the probability of the other,
 
-𝑃(B|A)=𝑃(𝐵)
+𝑃(B\|A)=𝑃(𝐵)
  
 P and hence the product rule turns out to be:
 
