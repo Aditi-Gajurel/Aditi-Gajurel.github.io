@@ -184,7 +184,7 @@ To sum up, the product rule says that we can multiply the probabilities of two e
 
 𝑃(B\|A)=𝑃(𝐵)
  
-P and hence the product rule turns out to be:
+and hence the product rule turns out to be:
 
 P(A and B) = P(A)*P(B)
 
