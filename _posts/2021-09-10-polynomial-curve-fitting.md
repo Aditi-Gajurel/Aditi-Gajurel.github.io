@@ -153,3 +153,92 @@ plt.show()
 	<img src="/images/1_12.png">
 	<figcaption></figcaption>
 </figure>
+
+Similarly, now we will see the coefficient for other valued of  M . We will see for  M=1,3,9 . For the coefficient calculation, we won't go step by step as we did for  M=0 . We will use a numpy librbay, numpy.polyfit which performs the least squares polynomial fit with the number of order specified.
+
+```
+## For M =1
+coefs = np.polyfit(x, t, 1)
+print(coefs)
+```
+
+Output: [-2.87998582  2.17801608]
+
+Now, we will plot the curve with these coefficients.
+```
+## Fitted Curve
+y = coefs[1] + coefs[0]*x 
+
+## Plot the fitted curve
+plt.scatter(x, t, label = 'data points')
+plt.plot(x, y, c ='r', label ='fitted line with M=1')
+plt.legend()
+plt.show()
+```
+<figure>
+	<img src="/images/1_13.png">
+	<figcaption></figcaption>
+</figure>
+
+```
+## For M = 3
+coefs = np.polyfit(x, t, 3)
+print(coefs)
+```
+Output: [ 30.12650107 -45.28783042  14.36416336   1.12207597]
+
+```
+## Fitted Curve
+y = coefs[3] + coefs[2]*x + coefs[1]*x**2 + coefs[0]*x**3
+
+## Plot the fitted curve
+plt.scatter(x, t, label = 'data points')
+plt.plot(x, y, c ='r', label ='fitted line with M=3')
+plt.legend()
+plt.show()
+```
+<figure>
+	<img src="/images/1_13.png">
+	<figcaption></figcaption>
+</figure>
+
+```
+## For M = 9
+coefs = np.polyfit(x, t, 9)
+print(coefs)
+```
+
+Output: [-3.07007894e+05  1.34937867e+06 -2.47898606e+06  2.47025924e+06
+ -1.44948523e+06  5.08745738e+05 -1.03533067e+05  1.11036868e+04
+ -4.76434849e+02  1.76405235e+00]
+
+ ```
+ ## Fitted Curve
+y = coefs[9] + coefs[8]*x + coefs[7]*x**2 + coefs[6]*x**3 + coefs[5]*x**4 + coefs[4]*x**5 + coefs[3]*x**6 + coefs[2]*x**7 + coefs[1]*x**8 + coefs[0]*x**9
+
+## Plot the fitted curve
+plt.scatter(x, t, label = 'data points')
+plt.plot(x, y, c ='r', label ='fitted line with M=9')
+plt.legend()
+plt.show()
+```
+<figure>
+	<img src="/images/1_13.png">
+	<figcaption></figcaption>
+</figure>
+
+Conclusions/Inferences
+Now, from the above plots and orders of the polynomial, things are clear to an extent. We see that the order,  M=0  and  M=1  fit poorly to the data points. When we opted for the much higher order, i.e., 9 then, the data points are completely captured by the fitted curve. In this case, the error is 0 since the fitted curve passes through each training data point and there are no residuals(errors). However, this fitted curve oscillates heavily and poorly represents the underlying function,  sin2𝜋𝑥 . This behavior is widely popular as Over-fitting.
+
+The polynomial with the third-order seems to mimic the  sin2𝜋𝑥  most decently, thus making this the best fit.
+
+As stated earlier, the main aim of the Polynomial Curve Fitting is to achieve the best fit that generalizes the most. Generalization is the ability to categorize correctly new examples that differ from those used in the training dataset. And the polynomial with order 9 is very well on the training dataset but it fails in generalizing to the new data points. Hence, we called this fit an over-fit. The polynomial curve should be able to incorporate the new unseen data points too. Therefore, we have a training set and testing set, where the testing set is used to assess the fitted polynomial.
+
+Over-fitting is fatal to the models. Hence, we must try to get rid of this. We can do so by:
+
+- Increasing the number of data points while training.
+- Using regularization parameters. (not covered here)
+
+
+This is it for the Polynomial Curve Fitting. Now, let's get into section 1.2 Probability Theory, which will be the next one.
+
