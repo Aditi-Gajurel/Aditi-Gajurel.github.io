@@ -175,7 +175,7 @@ P(B\|A) = P(Red in the second draw given that Red is in the first draw)
 Since we know,
 P(A) = P(Red card in first draw) =26/52
  
-P(B|A) = P(Red in second draw given that Red is in first draw) =25/51
+P(B\|A) = P(Red in second draw given that Red is in first draw) =25/51
  
 P(A and B) = P(A)*P(B\|A)=(26/52)∗(25/51)≈0.245
 
@@ -187,3 +187,5 @@ To sum up, the product rule says that we can multiply the probabilities of two e
 P and hence the product rule turns out to be:
 
 P(A and B) = P(A)*P(B)
+
+---End of the blog---
