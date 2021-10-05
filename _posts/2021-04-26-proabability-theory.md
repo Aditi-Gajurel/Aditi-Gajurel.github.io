@@ -136,4 +136,54 @@ Let's consider a different scenario.
 
 Consider drawing two cards from a deck of  52  cards. What is the probability of getting a red card on the first draw and then getting again a red card on the second draw without replacement?
  
+Our of  52  cards in a deck,  26  cards are red so the probability of getting a red card in the first draw is  26/52  or  1/2 . But the probability of getting a red card in the second draw no longer remains  26/52 . Since the number of the total cards is decreased to  51 .
 
+This is an example of dependent events. Now, we will see, how the probabilities are affected in the case of dependent events.
+
+<figure>
+	<img src="/images/2_10.png">
+	<figcaption></figcaption>
+</figure>
+
+Hence, from the tree diagram, we know that the probability of getting red cards on both draws is:
+
+
+<figure>
+	<img src="/images/2_11.png">
+	<figcaption></figcaption>
+</figure>
+
+Now, let's generalize this experiment to the universally known Probability rule or multiplicative rule of probability.
+
+For any two events, we can say that:
+
+P(A and B)=P(A)∗P(B|A)
+ 
+Here, the term  P(A|B)  is to be understood carefully. The vertical bar is read as "given". So,  P(A|B)  is the "probability of occurring A given than A has already occurred". This is often known with the name of Conditional Probability.
+
+In our former example of drawing cards, we can see the implementation of this formula.
+
+P(A) = P(Red card in first draw)
+ 
+P(B) = P(Red card in second draw)
+ 
+P(A and B) = P(Red card in first draw and Red card in second draw) = P(A)*P(B|A)
+ 
+Here in this case,
+P(B|A) = P(Red in the second draw given that Red is in the first draw)
+ 
+Since we know,
+P(A) = P(Red card in first draw) =26/52
+ 
+P(B|A) = P(Red in second draw given that Red is in first draw) =25/51
+ 
+P(A and B) = P(A)*P(B|A)=(26/52)∗(25/51)≈0.245
+
+
+To sum up, the product rule says that we can multiply the probabilities of two events to get the probability of occurrence of both events, but we need to take the first event into account when considering the probability of the second event, in case the events are dependent. In the case of independent events,when the occurrence of one event doesn't impact the probability of the other,
+
+𝑃(B|A)=𝑃(𝐵)
+ 
+P and hence the product rule turns out to be:
+
+P(A and B) = P(A)*P(B)
