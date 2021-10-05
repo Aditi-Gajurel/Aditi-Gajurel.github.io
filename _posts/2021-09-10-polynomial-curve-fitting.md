@@ -142,3 +142,14 @@ plt.show()
 
 
 
+```
+fig, ax = plt.subplots()
+ax.scatter(x, t)
+ax.hlines(y=0.739, xmin=0, xmax=1,color='r')
+plt.show()
+```
+
+<figure>
+	<img src="/images/1_12.png">
+	<figcaption></figcaption>
+</figure>
