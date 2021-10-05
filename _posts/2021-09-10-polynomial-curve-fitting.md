@@ -135,4 +135,10 @@ So, now this is the value for  𝑤0  to minimize the error function. Let's plot
 plt.scatter(x, t)
 plt.show()
 ```
+<figure>
+	<img src="/images/1_11.png">
+	<figcaption></figcaption>
+</figure>
+
+
 
