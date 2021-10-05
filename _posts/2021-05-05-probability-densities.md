@@ -106,3 +106,5 @@ Note: The sum rule and product rules of probability is applicable to the case of
 	<img src="/images/3_5.png">
 	<figcaption></figcaption>
 </figure>
+
+---End of the Blog---
