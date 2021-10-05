@@ -157,7 +157,7 @@ Now, let's generalize this experiment to the universally known Probability rule 
 
 For any two events, we can say that:
 
-P(A and B)=P(A)∗P(B|A)
+P(A and B)=P(A)∗P(B\|A)
  
 Here, the term  P(A|B)  is to be understood carefully. The vertical bar is read as "given". So,  P(A|B)  is the "probability of occurring A given than A has already occurred". This is often known with the name of Conditional Probability.
 
