@@ -240,6 +240,4 @@ Over-fitting is fatal to the models. Hence, we must try to get rid of this. We c
 - Using regularization parameters. (not covered here)
 
 
-This is it for the Polynomial Curve Fitting. Now, let's get into section 1.2 Probability Theory, which will be the next one.
-
 ---End of the blog---
