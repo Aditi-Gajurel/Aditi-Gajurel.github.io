@@ -74,7 +74,7 @@ For example, Conditional expectation is when we compute the expected value of a 
 __Variance__
 To state in the proper steps, we calculate variance, first, we calculate the difference between each point and the mean, and secondly, we square them, and lastly, we calculate the average of the squared terms, which is called the variance.
 
-In the mathematical expression, the variance of the random variable, 𝑓(𝑥) is defined by:
+Mathematically, the variance of the random variable, 𝑓(𝑥) is defined by:
 
 <figure>
 	<img src="/images/4_4.png">
