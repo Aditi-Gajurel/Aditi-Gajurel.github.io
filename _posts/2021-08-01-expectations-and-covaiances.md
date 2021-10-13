@@ -6,7 +6,7 @@ category: articles
 ---
 
 
-The expectation is mean in the simplest sense. But what is mean, in probability theory?
+Expectation is mean in the simplest sense. But what is mean, in probability theory?
 
 Mean in probability theory or Expectation of any random variable is the weighted average of the probability distribution function of that random variable. Let's suppose, we have a random variable,  𝑓(𝑥) , which has a sample space of  𝑆 , then the expectation of random variable,  𝑓(𝑥)  is given by:
 
