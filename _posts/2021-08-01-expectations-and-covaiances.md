@@ -81,7 +81,7 @@ In the mathematical expression, the variance of the random variable, 𝑓(𝑥) 
 	<figcaption></figcaption>
 </figure>
 
-Variance provides us a measure of how much variability there is in  𝑓(𝑥)  around its mean value, i.e.,  𝐸(𝑓(𝑥)) .
+Variance provides us a measure of how much variability there is in  𝑓(𝑥)  around its mean value, i.e.,  𝐸(𝑓(𝑥)).
 
 
 ---End of the blog---
