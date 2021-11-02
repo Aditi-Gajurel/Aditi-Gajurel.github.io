@@ -63,9 +63,6 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name: "Aditi Gajurel"
-  # avatar: "/images/my-image.jpg"
-  bio: "Machine Learning Engineer"
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
