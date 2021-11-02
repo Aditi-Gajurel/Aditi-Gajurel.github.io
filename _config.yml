@@ -91,10 +91,10 @@ footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/MadanBaduwal1"
+      url: "https://twitter.com/AditiGajurel"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/MadanBaduwal"
+      url: "https://github.com/aditi-gajurel"
 
 defaults:
   # _posts
@@ -137,18 +137,17 @@ comments:
   utterances:
     theme: "github-light" # "github-dark"
     issue_term: "pathname"
-repository: "MadanBaduwal/MadanBaduwal.github.io"
+repository: "aditi-gajurel/aditi-gajurel.github.io"
 
 google-site-verification: "7PTmUxxTjmF3fgdhOmPbB5uNjkzCLD5vhItBRnJJSZY" # get from google search console
 
 social:
   type: Person
-  name: Madan Baduwal
+  name: Aditi Gajurel
   links:
-    - "https://twitter.com/MadanBaduwal1"
-    - "https://github.com/MadanBaduwal"
-    - "https://www.linkedin.com/in/madan-baduwal-a688bb186/"
-    - "https://stackoverflow.com/users/13783264"
+    - "https://twitter.com/AditiGajurel"
+    - "https://github.com/aditi-gajurel"
+    - "https://www.linkedin.com/in/aditi-gajurel-334492146/"
 
 google:
   search_engine_id: f40dfec50840f5334
