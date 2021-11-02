@@ -2,7 +2,6 @@
 permalink: /about/
 title: "About"
 classes: wide
-excerpt: Learn about me, who iam and what I do. 
 ---
 
 <!-- 📃 You can find my [Resume](https://drive.google.com/file/d/1a20srnBPEXdMic148lRYL2j6VwIg_88H/view?usp=sharing) here. -->
