@@ -1,3 +1,150 @@
+# # Welcome to Jekyll!
+# #
+# # This config file is meant for settings that affect your whole blog, values
+# # which you are expected to set up once and rarely edit after that. If you find
+# # yourself editing this file very often, consider using Jekyll's data files
+# # feature for the data you need to update frequently.
+# #
+# # For technical reasons, this file is *NOT* reloaded automatically when you use
+# # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# # Site settings
+# # These are used to personalize your new site. If you look in the HTML files,
+# # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# # You can create any custom variable you would like, and they will be accessible
+# # in the templates via {{ site.myvariable }}.
+# title: Aditi Gajurel
+# email: aditigajurel32@gmail.com
+# description: "Machine Learning Engineer"
+# url: "https://Aditi-Gajurel.github.io"
+# twitter_username: AditiGajurel
+# github_username: Aditi-Gajurel
+# linkiden_username: Aditi Gajurel
+# minimal_mistakes_skin: "default"
+# search: true
+
+# twitter:
+#   username: "AditiGajurel"
+
+# # Build settings
+# markdown: kramdown
+# remote_theme: mmistakes/minimal-mistakes
+
+# # Outputting
+# permalink: /:year/:month/:title/
+# paginate: 5 # amount of posts to show
+# paginate_path: /page:num/
+# timezone: Asia/Kathmandu
+
+# og_image: /images/default_post_image.jpg
+
+# include:
+#   - _pages
+
+# # Exclude from processing.
+# # The following items will not be processed, by default. Create a custom list
+# # to override the default setting.
+# # exclude:
+# #   - Gemfile
+# #   - Gemfile.lock
+# #   - node_modules
+# #   - vendor/bundle/
+# #   - vendor/cache/
+# #   - vendor/gems/
+# #   - vendor/ruby/
+
+# # Plugins (previously gems:)
+# plugins:
+#   - jekyll-paginate
+#   - jekyll-sitemap
+#   - jekyll-gist
+#   - jekyll-feed
+#   - jemoji
+#   - jekyll-include-cache
+
+# author:
+#   links:
+#     - label: "GitHub"
+#       icon: "fab fa-fw fa-github"
+#       url: "https://github.com/aditi-gajurel"
+#     - label: "Linkedin"
+#       icon: "fab fa-linkedin-in"
+#       url: "https://www.linkedin.com/in/aditi-gajurel-334492146/"
+#     - label: "Twitter"
+#       icon: "fab fa-fw fa-twitter-square"
+#       url: "https://twitter.com/AditiGajurel"
+
+# footer:
+#   links:
+#     - label: "Twitter"
+#       icon: "fab fa-fw fa-twitter-square"
+#       url: "https://twitter.com/AditiGajurel"
+#     - label: "GitHub"
+#       icon: "fab fa-fw fa-github"
+#       url: "https://github.com/aditi-gajurel"
+
+# defaults:
+#   # _posts
+#   - scope:
+#       path: ""
+#       type: posts
+#     values:
+#       layout: single
+#       author_profile: true
+#       read_time: true
+#       comments: true
+#       share: true
+#       related: true
+#   # _pages
+#   - scope:
+#       path: "_pages"
+#       type: pages
+#     values:
+#       layout: single
+#       author_profile: true
+#   - scope:
+#       path: "images/"
+#     values:
+#       image: true
+
+# collections:
+#   portfolio:
+#     output: true
+#     permalink: /:collection/:path/
+
+# category_archive:
+#   type: liquid
+#   path: /categories/
+# tag_archive:
+#   type: liquid
+#   path: /tags/
+
+# comments:
+#   provider: "utterances"
+#   utterances:
+#     theme: "github-light" # "github-dark"
+#     issue_term: "pathname"
+# repository: "aditi-gajurel/aditi-gajurel.github.io"
+
+# google-site-verification: "7PTmUxxTjmF3fgdhOmPbB5uNjkzCLD5vhItBRnJJSZY" # get from google search console
+
+# social:
+#   type: Person
+#   name: Aditi Gajurel
+#   links:
+#     - "https://twitter.com/AditiGajurel"
+#     - "https://github.com/aditi-gajurel"
+#     - "https://www.linkedin.com/in/aditi-gajurel-334492146/"
+
+# google:
+#   search_engine_id: f40dfec50840f5334
+
+# analytics:
+#   provider: "google-gtag"
+#   google:
+#     tracking_id: "UA-25459974-1"
+#     anonymize_ip: false
+
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your whole blog, values
@@ -13,18 +160,19 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Aditi Gajurel
-email: aditigajurel32@gmail.com
-description: "Machine Learning Engineer"
-url: "https://Aditi-Gajurel.github.io"
-twitter_username: AditiGajurel
-github_username: Aditi-Gajurel
-linkiden_username: Aditi Gajurel
-minimal_mistakes_skin: "default"
+title: Amit Chaudhary
+email: meamitkc@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  I am a Machine Learning Engineer applying research to products.
+  I explain machine learning concepts using diagrams, animations and intuition
+url: "https://amitness.com"
+twitter_username: amitness
+github_username: amitness
+minimal_mistakes_skin: default
 search: true
 
 twitter:
-  username: "AditiGajurel"
+  username: "amitness"
 
 # Build settings
 markdown: kramdown
@@ -35,8 +183,6 @@ permalink: /:year/:month/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: Asia/Kathmandu
-
-og_image: /images/default_post_image.jpg
 
 include:
   - _pages
@@ -63,25 +209,40 @@ plugins:
   - jekyll-include-cache
 
 author:
+  name: "Amit Chaudhary"
+  avatar: "/images/bio-photo.jpg"
+  bio: "Research && Engineering"
   links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/aditi-gajurel"
-    - label: "Linkedin"
-      icon: "fab fa-linkedin-in"
-      url: "https://www.linkedin.com/in/aditi-gajurel-334492146/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/AditiGajurel"
+      url: "https://twitter.com/amitness"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/amitness"
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/amitness"
+    - label: "Subscribe"
+      icon: "fas fa-fw fa-envelope"
+      url: "https://www.getrevue.co/profile/amitness"
+    - label: "Support"
+      icon: "fas fa-fw fa-mug-hot"
+      url: "https://www.buymeacoffee.com/amitness"
+#    - label: "Email"
+#      icon: "fab fa-envelope"
+#      url: "mailto:meamitkc@gmail.com"
+#    - label: "Feed"
+#      icon: "fab fa-fw fa-globe"
+#      url: "/feed.xml"
 
 footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/AditiGajurel"
+      url: "http://bit.ly/amitnesstwitter"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/aditi-gajurel"
+      url: "https://github.com/amitness"
 
 defaults:
   # _posts
@@ -107,11 +268,6 @@ defaults:
     values:
       image: true
 
-collections:
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
-
 category_archive:
   type: liquid
   path: /categories/
@@ -124,23 +280,20 @@ comments:
   utterances:
     theme: "github-light" # "github-dark"
     issue_term: "pathname"
-repository: "aditi-gajurel/aditi-gajurel.github.io"
+repository: "amitness/blog-comments"
 
-google-site-verification: "7PTmUxxTjmF3fgdhOmPbB5uNjkzCLD5vhItBRnJJSZY" # get from google search console
+google_site_verification: "xETphZ5K1WItiUzH0YMRgZ8njDZlQMcGd_HD3zxGkuI"
 
 social:
   type: Person
-  name: Aditi Gajurel
+  name: Amit Chaudhary
   links:
-    - "https://twitter.com/AditiGajurel"
-    - "https://github.com/aditi-gajurel"
-    - "https://www.linkedin.com/in/aditi-gajurel-334492146/"
-
-google:
-  search_engine_id: f40dfec50840f5334
+    - "https://twitter.com/amitness"
+    - "https://www.facebook.com/amitify"
+    - "https://www.linkedin.com/in/amitness"
 
 analytics:
   provider: "google-gtag"
   google:
-    tracking_id: "UA-25459974-1"
+    tracking_id: "UA-98232022-1"
     anonymize_ip: false
