@@ -74,16 +74,6 @@ author:
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/AditiGajurel"
 
-    # - label: "Subscribe"
-    #   icon: "fas fa-fw fa-envelope"
-    #   url: "https://feedburner.google.com/fb/a/mailverify?uri=MadanBaduwal&amp;loc=en_US"
-#    - label: "Email"
-#      icon: "fab fa-envelope"
-#      url: "mailto:meamitkc@gmail.com"
-#    - label: "Feed"
-#      icon: "fab fa-fw fa-globe"
-#      url: "/feed.xml"
-
 footer:
   links:
     - label: "Twitter"
