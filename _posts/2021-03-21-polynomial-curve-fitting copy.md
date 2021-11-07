@@ -7,6 +7,7 @@ categories: [Posts]
 excerpt : Polynomial Curve Fitting is an example of Regression, a supervised machine learning algorithm.
 
 ---
+Polynomial Curve Fitting is an example of Regression, a supervised machine learning algorithm.
 
 __End Goal of Curve Fitting__
 
