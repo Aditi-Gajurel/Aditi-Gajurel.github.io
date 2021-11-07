@@ -8,7 +8,10 @@ excerpt :
 
 ---
 Polynomial Curve Fitting is an example of Regression, a supervised machine learning algorithm.
-- __End Goal of Curve Fitting__: We observe a real-valued input variable,  𝑥 , and we intend to predict the target variable,  𝑡 . Polynomial Curve fitting is a generalized term; curve fitting with various input variables,  𝑥 ,  𝑦 , and many more.
+
+__End Goal of Curve Fitting__
+
+We observe a real-valued input variable,  𝑥 , and we intend to predict the target variable,  𝑡 . Polynomial Curve fitting is a generalized term; curve fitting with various input variables,  𝑥 ,  𝑦 , and many more.
 
 We will see curve fitting on a synthetic dataset.
 
@@ -64,6 +67,8 @@ M = order of the polynomial
 𝑤0,𝑤1,...,𝑤𝑀 = polynomial coefficients (denoted by vector,  v )
 
 Remember:  𝑦(𝑥,𝑤)  is non linear function of  𝑥  but the linear function of coefficients,  𝑤 . Functions which are linear in terms of unknown parameters are called linear models.
+
+
 __Determinine the unknown parameters,  w__
 
 The value of the coefficients is found by fitting the polynomial to the training dataset. For this, we minimize the error function that calculates the misfit between function  𝑦(𝑥,𝑤)  and the training data points. One of the widely used error functions is the Sum of the Squares of the Errors (SSE).
@@ -74,6 +79,7 @@ The value of the coefficients is found by fitting the polynomial to the training
 </figure>
 
 1/2  has a convenience, which we will see in later chapters. SSE is a non-negative quantity and we wish to choose unknown parameters, w to make SSE minimum. The error function is quadratic so its first derivative for coefficients, w will be a linear equation with w as unknown. So, we can solve for the unique values of w, which we will denote by w∗ since this set of parameters minimize the error function's value and the resulting curve is given by 𝑦(𝑥,𝑤∗).
+
 
 
 __Determine the order of the polynomial,  M__
@@ -201,7 +207,7 @@ plt.legend()
 plt.show()
 ```
 <figure>
-	<img src="/images/1_13.png">
+	<img src="/images/1_14.png">
 	<figcaption></figcaption>
 </figure>
 
@@ -226,7 +232,7 @@ plt.legend()
 plt.show()
 ```
 <figure>
-	<img src="/images/1_13.png">
+	<img src="/images/1_15.png">
 	<figcaption></figcaption>
 </figure>
 
