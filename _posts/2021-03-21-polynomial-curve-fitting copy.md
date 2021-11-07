@@ -1,14 +1,11 @@
 ---
-published: true
 title: Polynomial Curve Fitting
 layout: single
 author_profile: false
 read_time: true
 categories: [Posts]
 excerpt : 
-comments : true
-sidebar:
-    nav: sidebar-sample
+
 ---
 Polynomial Curve Fitting is an example of Regression, a supervised machine learning algorithm.
 - __End Goal of Curve Fitting__: We observe a real-valued input variable,  𝑥 , and we intend to predict the target variable,  𝑡 . Polynomial Curve fitting is a generalized term; curve fitting with various input variables,  𝑥 ,  𝑦 , and many more.
