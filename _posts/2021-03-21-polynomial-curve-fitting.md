@@ -17,7 +17,6 @@ We will see curve fitting on a synthetic dataset.
 
 For the synthetic dataset, we will generate the data points from a function  sin2𝜋𝑥  with some random normal noise included.
 
-
 ```
 ## Imports
 import warnings
