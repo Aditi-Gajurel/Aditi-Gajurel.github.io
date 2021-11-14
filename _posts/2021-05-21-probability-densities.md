@@ -1,5 +1,5 @@
 ---
-title: Expectations
+title: Probability Densities
 layout: single
 author_profile: false
 read_time: true
@@ -18,7 +18,8 @@ Probability Distribution are primarily classified as:
 - Discrete Probability Distribution
 - Continuous Probability Distributions
 
-__Discrete Distribution | Probability Mass Function__
+
+__Discrete Distribution->Probability Mass Function__
 
 Discrete Probability distribution deals with the discrete random variables. Discrete random variables take any value within discrete set of values. For example: The outcome of an experiment of rolling a die is an example of discrete random variable, since the possible outcomes are discrete and falls into the set {1, 2, 3, 4, 5, 6}. In this case, if we have a fair die, the probability of getting each of the outcomes is  16 , and the probability distribution function or in this case probability mass function would look like:
 
