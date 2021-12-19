@@ -5,7 +5,6 @@ author_profile: false
 read_time: true
 categories: [Posts]
 
-
 ---
 __Probability Distributions__
 
