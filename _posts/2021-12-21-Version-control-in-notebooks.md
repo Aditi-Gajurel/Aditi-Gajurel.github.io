@@ -3,7 +3,7 @@ title: Version Control in Notebooks
 layout: single
 author_profile: false
 read_time: true
-categories: [Tools]
+categories: [Probabilistic Machine Learning]
 excerpt : Some useful tools to keep track of the changes in the jupyter notebooks
 
 ---
