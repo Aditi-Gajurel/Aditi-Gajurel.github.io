@@ -3,7 +3,7 @@ title: Polynomial Curve Fitting
 layout: single
 author_profile: false
 read_time: true
-categories: [Probabilisic Machine Learning]
+categories: [Probabilistic Machine Learning]
 excerpt : Polynomial Curve Fitting is an example of Regression, a supervised machine learning algorithm.
 
 ---

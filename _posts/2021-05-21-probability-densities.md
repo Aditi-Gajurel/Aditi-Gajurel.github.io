@@ -3,7 +3,7 @@ title: Probability Densities
 layout: single
 author_profile: false
 read_time: true
-categories: [Posts]
+categories: [Probabilistic Machine Learning]
 
 ---
 __Probability Distributions__
