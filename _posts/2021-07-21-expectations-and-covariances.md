@@ -3,7 +3,7 @@ title: Expectations
 layout: single
 author_profile: false
 read_time: true
-categories: [Posts]
+categories: [Probabilistic Machine Learning]
 
 
 ---
