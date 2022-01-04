@@ -68,7 +68,7 @@ author:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/aditi-gajurel"
     - label: "Gmail"
-      icon: "fab fa-fw fa-envelope"
+      icon: "fab fa fa-envelope"
       url: "mailto:aditigajurel32@gmail.com"
     - label: "Linkedin"
       icon: "fab fa-linkedin-in"
