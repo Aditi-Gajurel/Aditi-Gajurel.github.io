@@ -67,15 +67,15 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/aditi-gajurel"
+    - label: "Gmail"
+      icon: "fab fa-fw fa-envelope"
+      url: "mailto:aditigajurel32@gmail.com"
     - label: "Linkedin"
       icon: "fab fa-linkedin-in"
       url: "https://www.linkedin.com/in/aditi-gajurel-334492146/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/AditiGajurel"
-    - label: "Gmail"
-      icon: "fab fa fa-envelope"
-      url: "mailto:aditigajurel32@gmail.com"
 
 footer:
   links:
