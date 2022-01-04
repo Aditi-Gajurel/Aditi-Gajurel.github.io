@@ -74,7 +74,7 @@ author:
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/AditiGajurel"
     - label: "Gmail"
-      icon: "fab fa-fw fa-twitter-square"
+      icon: "fab fa fa-envelope"
       url: "mailto:aditigajurel32@gmail.com"
 
 footer:
