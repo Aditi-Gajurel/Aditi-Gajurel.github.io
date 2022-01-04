@@ -73,6 +73,9 @@ author:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/AditiGajurel"
+    - label: "Gwitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "mailto:aditigajurel32@gmail.com"
 
 footer:
   links:
