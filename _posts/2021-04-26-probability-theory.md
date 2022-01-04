@@ -7,7 +7,7 @@ categories: [Probabilistic Machine Learning]
 
 
 ---
- Due to uncertainty in the world, we are talking about probability now. The cause of uncertainty is numerous ranging from noises to the limited data sizes. Probability Theory helps us by providing a consistent framework for the qualification and manipulation of the uncertainty and helps us get the foundation of pattern recognition.
+ Due to uncertainty around us, we are talking about probability now. The cause of uncertainty is numerous ranging from noises to the limited data sizes. Probability Theory helps us by providing a consistent framework for the qualification and manipulation of the uncertainty and helps us get the foundation of pattern recognition.
 
 There are two fundamental rules of probability theory viz;
 
