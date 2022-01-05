@@ -19,6 +19,8 @@ salary = w_0 + w_age*age + w_gender*gender + w_employer*employer
 
 w_0 = a constant or a bias (take it as a base salary)
 
-w_age =  a number that demonstrates the importance of the age in calculating the salary
+w_age =  a number that tells by what factor does age influences the salary.
 
 w_gender = a number that tells by what factor does gender influences the salary.
+
+w_employer = a number that tells by what factor does employer influences the salary.
