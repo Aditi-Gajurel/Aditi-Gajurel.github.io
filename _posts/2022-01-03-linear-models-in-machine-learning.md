@@ -1,7 +1,7 @@
 ---
 title: Understanding Linear Regression [1/4]
 layout: single
-author_profile: false
+author_profile: true
 read_time: true
 categories: [Machine Learning]
 excerpt : Work in Progress
@@ -59,7 +59,7 @@ For example:
 
 The equation below is linear in terms of both inputs and parameters, so hold the assumption.
 
-𝑦=𝛽0+𝛽1𝑥 
+𝑦 = 𝛽0 + 𝛽1𝑥 
 
 Similarly, equation below is not linear in terms of inputs but linear in terms of parmaeters so it holds the assumption.
 
