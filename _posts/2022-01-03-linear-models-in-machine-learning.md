@@ -37,10 +37,38 @@ Output:  𝑦  (i.e., response, dependent variable)
 
 __Goal__
 
-You need to find a regression function  𝑦≈𝑓(𝑥,𝛽) , where 𝛽 is the parameter to be estimated from observations.
+You need to find a regression function  𝑦 ≈ 𝑓(𝑥,𝛽) , where 𝛽 is the parameter to be estimated from observations.
 
-For Simple Linear regression:  𝑦 = 𝛽0 + 𝛽1𝑥 
+For Simple Linear regression:  𝑦 = 𝛽_0 + 𝛽_1*𝑥 
 
-For Multiple Linear regression:  𝑦=𝛽0 + 𝛽1𝑥1 + 𝛽2𝑥2 + ... + 𝛽𝑑𝑥𝑑, where 𝑑 is the number of features.
+For Multiple Linear regression:  𝑦 = 𝛽_0 + 𝛽_1*𝑥_1 + 𝛽_2*𝑥_2 + ... + 𝛽_𝑑*𝑥_𝑑, where 𝑑 is the number of features.
 
 A regression method is linear if the prediction 𝑓 is a linear function of the unknown parameters 𝛽.
+
+Linear regression finds several applications in our day to day life. Suppose, in a sales company; you need to maximize the sales; it is essential to know the weightage of each factor, such as advertisement, investment, recruitment to the sales. This is where you use linear regression. As such, we have numerous applications of linear regression.
+
+While modeling linear regression, the standard estimation techniques make several assumptions about the predictor variables or input variables, response variable or output variable, and their relationship.
+
+__Some Assumptions of Linear Regression__
+Linear regression should be linear in parameters
+
+The response variable,  𝑦  is the function of input variables,  𝑥 's and parameters,  𝛽 's. But the linearity condition is up to parameters. The output variable should be linear in terms of parameters, not necessarily in terms of input variables.
+
+For example:
+
+The equation below is linear in terms of both inputs and parameters, so hold the assumption.
+
+𝑦=𝛽0+𝛽1𝑥 
+
+Similarly, equation below is not linear in terms of inputs but linear in terms of parmaeters so it holds the assumption.
+
+𝑦=𝛽0+𝛽1𝑥2 
+
+Lastly, the equation below is linear in terms of input but is not linear in terms of parameters, so it violates the assumption and is not a linear regression model.
+
+𝑦=𝛽0+𝛽21𝑥 
+
+Error or residuals should have constant variance and no autocorrelation.
+
+An essential assumption of the linear regression model is that the residuals or errors have the same variance for all data points. This is called the homoscedasticity. If this variance is not constant (i.e. dependent on input variables,  𝑥′ s), then the linear regression model has heteroscedastic errors and this condition of heteroscedasticity might result incorrect parameters.
+
