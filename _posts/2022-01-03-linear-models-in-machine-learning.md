@@ -50,6 +50,7 @@ Linear regression finds several applications in our day to day life. Suppose, in
 While modeling linear regression, the standard estimation techniques make several assumptions about the predictor variables or input variables, response variable or output variable, and their relationship.
 
 __Some Assumptions of Linear Regression__
+
 Linear regression should be linear in parameters
 
 The response variable,  𝑦  is the function of input variables,  𝑥 's and parameters,  𝛽 's. But the linearity condition is up to parameters. The output variable should be linear in terms of parameters, not necessarily in terms of input variables.
