@@ -1,5 +1,5 @@
 ---
-title: Linear Regression [1/4]
+title: Understanding Linear Regression [1/4]
 layout: single
 author_profile: false
 read_time: true
@@ -26,3 +26,21 @@ w_age =  a number that tells by what factor does age influences the salary.
 w_gender = a number that tells by what factor does gender influences the salary.
 
 w_employer = a number that tells by what factor does employer influences the salary.
+
+Now that we are warmed up, we will proceed towards building a strong understanding of the underlying mathematical concepts of linear regression. I assume, we are familiar with the basic knowledge on what linear regression is about. If not, here is the basic revisit of linear regression.
+
+__Data__
+
+Input:  𝑥  (i.e, measurements, covariates, features, independent variables)
+
+Output:  𝑦  (i.e., response, dependent variable)
+
+__Goal__
+
+You need to find a regression function  𝑦≈𝑓(𝑥,𝛽) , where 𝛽 is the parameter to be estimated from observations.
+
+For Simple Linear regression:  𝑦 = 𝛽0 + 𝛽1𝑥 
+
+For Multiple Linear regression:  𝑦=𝛽0 + 𝛽1𝑥1 + 𝛽2𝑥2 + ... + 𝛽𝑑𝑥𝑑, where 𝑑 is the number of features.
+
+A regression method is linear if the prediction 𝑓 is a linear function of the unknown parameters 𝛽.
