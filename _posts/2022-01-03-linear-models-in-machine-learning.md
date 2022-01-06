@@ -1,5 +1,5 @@
 ---
-title: Linear Models in Machine Learning
+title: Linear Regression [1/4]
 layout: single
 author_profile: false
 read_time: true
@@ -7,6 +7,8 @@ categories: [Machine Learning]
 excerpt : Work in Progress
 
 ---
+
+Linear Regression is the most widely seen, used, and go-to supervised linear model in the pool of machine learning algorithm. When I say this, what is linear model at first.
 
 Linear models are the simplest, and that is the reason for its wide popularity and application. If I am to speak of a sentence on linear models, it would be, a model where we have linear combination of features to get an output. 
 
