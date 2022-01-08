@@ -129,3 +129,24 @@ In such a situation, it is better to drop one of the three input variables from 
 4. There should be a random sampling of observations.
 
 The observations for the linear regression should be randomly sampled from any population. Suppose, you are trying to build a regression model to know the factors that affect the price of the house, then you must select houses randomly from a locality, rather than adopting a convenient sampling procedure. Also, the number of observations should always be higher than the number of parameters to be estimated.
+
+__Parameter Estimation Techniques__
+
+Now that you know the assumptions of Linear Regression, it's time you know the techniques to find the parameters, i.e., intercept and regression coefficients. Earlier, we used Scikit-Learn's [`LinearRegression`](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html) predictor object to estimate $\beta's$. It provides us with the optimized $\beta's$. But now you should know how the optimized parameters are being calculated. There are different techniques by which you can find the parameters. Two of them are as follows:
+
+- Least Squares Estimation
+
+  In practice, observed data or input-output pair is given, and $\beta's$ are unknown. We use the given input-output pair to estimate the coefficients. The estimated intercept and regression coefficient later helps us in predicting the output value with the input values. There is an error or residual since the estimated regression can not satisfy all the output data points. Hence, we have an error or residual, which is the difference between the estimated output value and the actual output value. Errors can either be positive or negative. We can sum the errors to evaluate the estimated linear regression line. To get rid of the cancellation of the positive and negative error, we square the error and add then which is popularly called as Sum of Squares of errors or Residual Sum of Squares.
+
+  This parameter estimation technique finds the parameters by minimizing the sum of squares. You will learn details on this technique with the mathematical formulation in the upcoming chapter. There are mainly three types of Least Squares:
+
+  - Ordinary Least Squares
+
+  - Weighted Least Squares
+
+  - Generalized Least Squares
+
+
+- Maximum Likelihood Estimation
+
+    Maximum likelihood estimation is a well known probabilistic framework for finding parameters that best describe the observed data. You find the parameters by maximizing the conditional probability of observing the data, $x$ given specific probability distribution and its parameters $\beta's$. Detailed discussion on this technique is out of the scope.
