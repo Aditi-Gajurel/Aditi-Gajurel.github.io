@@ -80,21 +80,21 @@ For example:
 The equation below is linear in terms of both inputs and parameters, so hold the assumption.
 
 <figure>
-	<img src="/images/6_5.png" height="20" width="500">
+	<img src="/images/6_5.png" >
 	<figcaption></figcaption>
 </figure>
 
 Similarly, equation below is not linear in terms of inputs but linear in terms of parmaeters so it holds the assumption.
 
 <figure>
-	<img src="/images/6_6.png" height="20" width="500">
+	<img src="/images/6_6.png" >
 	<figcaption></figcaption>
 </figure>
 
 Lastly, the equation below is linear in terms of input but is not linear in terms of parameters, so it violates the assumption and is not a linear regression model.
 
 <figure>
-	<img src="/images/6_7.png" height="20" width="500">
+	<img src="/images/6_7.png">
 	<figcaption></figcaption>
 </figure>
 
@@ -103,13 +103,29 @@ __Error or residuals should have constant variance and no autocorrelation__
 An essential assumption of the linear regression model is that the residuals or errors have the same variance for all data points. This is called the homoscedasticity. If this variance is not constant (i.e. dependent on input variables,  𝑥′ s), then the linear regression model has heteroscedastic errors and this condition of heteroscedasticity might result incorrect parameters.
 
 <figure>
-	<img src="/images/6_8.png" height="20" width="500">
+	<img src="/images/6_8.png">
 	<figcaption></figcaption>
 </figure>
 
-Above Figure shows the Homoscedasticity and Heteroscedasticity. The variance of errors is constant in homoscedasticity, while it’s not the case if errors are heteroscedastic. We always assume the errors to be homoscedastic
+Above Figure shows the Homoscedasticity and Heteroscedasticity. The variance of errors is constant in homoscedasticity, while it’s not the case if errors are heteroscedastic. We always assume the errors to be homoscedastic.
 
 Similarly, the assumption of no autocorrelation says that the error terms of different observations should not be correlated. In other words, errors or residuals should be IID (Independent and Identically Distributed).
 
 Usually, in time-series data, we are likely to suffer from autocorrelation because each data in the next instant depends upon the data at the previous instant. So, error terms are somehow correlated.
 
+__There shouldn't be multicollinearity__
+
+Multi colinearity here means perfect colinearity. This assumption is for input variables. In simple linear regression, where we have a single input variable, this assumption doesn't play any role, but in case of multiple linear regression, we should be careful. Any two or more sets of input variables should not be perfectly correlated. Perfect correlation might not make the predictor's matrix full rank, which creates a problem in estimating the parameters.
+
+For example, while predicting the house price, you can have many input variables, length, breadth, area, location, and many more. In this case, if you include the feature, area along with length, breadth, you might violate the assumptions because:
+
+<figure>
+	<img src="/images/6_9.png">
+	<figcaption></figcaption>
+</figure>
+
+In such a situation, it is better to drop one of the three input variables from the linear regression model.
+
+__There should be a random sampling of observations__
+
+The observations for the linear regression should be randomly sampled from any population. Suppose, you are trying to build a regression model to know the factors that affect the price of the house, then you must select houses randomly from a locality, rather than adopting a convenient sampling procedure. Also, the number of observations should always be higher than the number of parameters to be estimated.
