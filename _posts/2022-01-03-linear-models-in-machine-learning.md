@@ -57,7 +57,12 @@ For Simple Linear regression:
 	<figcaption></figcaption>
 </figure>
 
-For Multiple Linear regression:  𝑦 = 𝛽_0 + 𝛽_1*𝑥_1 + 𝛽_2*𝑥_2 + ... + 𝛽_𝑑*𝑥_𝑑, where 𝑑 is the number of features.
+For Multiple Linear regression:  
+<figure>
+	<img src="/images/6_4.png" height="20" width="500">
+	<figcaption></figcaption>
+</figure>
+
 
 A regression method is linear if the prediction 𝑓 is a linear function of the unknown parameters 𝛽.
 
