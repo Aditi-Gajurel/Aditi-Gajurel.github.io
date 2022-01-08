@@ -53,7 +53,7 @@ You need to find a regression function  𝑦 ≈ 𝑓(𝑥,𝛽) , where 𝛽 is
 For Simple Linear regression:
 
 <figure>
-	<img src="/images/6_3.png" height="300" width="500">
+	<img src="/images/6_3.png" height="200" width="500">
 	<figcaption></figcaption>
 </figure>
 
