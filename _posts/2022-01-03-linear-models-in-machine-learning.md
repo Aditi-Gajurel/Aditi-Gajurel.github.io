@@ -14,7 +14,7 @@ Linear models are the most basic, which explains their widespread use and appeal
 
 For instance, suppose we wish to create a linear model that predicts a salary of an individual. In this case, let's take age of an individual, gender of an individual, and an employer as the inputs or features. The linear model would look like:
 
-```
+<!-- ```
 salary = w_0 + w_age*age + w_gender*gender + w_employer*employer
 
 ```
@@ -25,7 +25,12 @@ w_age =  a number that tells by what factor does age influences the salary.
 
 w_gender = a number that tells by what factor does gender influences the salary.
 
-w_employer = a number that tells by what factor does employer influences the salary.
+w_employer = a number that tells by what factor does employer influences the salary. -->
+
+<figure>
+	<img src="/images/6_1.png">
+	<figcaption></figcaption>
+</figure>
 
 Now that we are warmed up, we will proceed towards building a strong understanding of the underlying mathematical concepts of linear regression. I assume, we are familiar with the basic knowledge on what linear regression is about. If not, here is the basic revisit of linear regression.
 
