@@ -98,7 +98,7 @@ Lastly, the equation below is linear in terms of input but is not linear in term
 	<figcaption></figcaption>
 </figure>
 
-3. Error or residuals should have constant variance and no autocorrelation.
+2. Error or residuals should have constant variance and no autocorrelation.
 
 An essential assumption of the linear regression model is that the residuals or errors have the same variance for all data points. This is called the homoscedasticity. If this variance is not constant (i.e. dependent on input variables,  𝑥′ s), then the linear regression model has heteroscedastic errors and this condition of heteroscedasticity might result incorrect parameters.
 
@@ -113,7 +113,7 @@ Similarly, the assumption of no autocorrelation says that the error terms of dif
 
 Usually, in time-series data, we are likely to suffer from autocorrelation because each data in the next instant depends upon the data at the previous instant. So, error terms are somehow correlated.
 
-2. There shouldn't be multicollinearity.
+3. There shouldn't be multicollinearity.
 
 Multi colinearity here means perfect colinearity. This assumption is for input variables. In simple linear regression, where we have a single input variable, this assumption doesn't play any role, but in case of multiple linear regression, we should be careful. Any two or more sets of input variables should not be perfectly correlated. Perfect correlation might not make the predictor's matrix full rank, which creates a problem in estimating the parameters.
 
