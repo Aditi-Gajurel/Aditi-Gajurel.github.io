@@ -32,6 +32,11 @@ w_employer = a number that tells by what factor does employer influences the sal
 	<figcaption></figcaption>
 </figure>
 
+<figure>
+	<img src="/images/6_2.png">
+	<figcaption></figcaption>
+</figure>
+
 Now that we are warmed up, we will proceed towards building a strong understanding of the underlying mathematical concepts of linear regression. I assume, we are familiar with the basic knowledge on what linear regression is about. If not, here is the basic revisit of linear regression.
 
 __Data__
