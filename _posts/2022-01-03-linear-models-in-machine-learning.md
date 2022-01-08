@@ -32,6 +32,7 @@ w_employer = a number that tells by what factor does employer influences the sal
 	<figcaption></figcaption>
 </figure>
 
+
 <figure>
 	<img src="/images/6_2.png">
 	<figcaption></figcaption>
@@ -49,7 +50,12 @@ __Goal__
 
 You need to find a regression function  𝑦 ≈ 𝑓(𝑥,𝛽) , where 𝛽 is the parameter to be estimated from observations.
 
-For Simple Linear regression:  𝑦 = 𝛽_0 + 𝛽_1*𝑥 
+For Simple Linear regression:
+
+<figure>
+	<img src="/images/6_3.png">
+	<figcaption></figcaption>
+</figure>
 
 For Multiple Linear regression:  𝑦 = 𝛽_0 + 𝛽_1*𝑥_1 + 𝛽_2*𝑥_2 + ... + 𝛽_𝑑*𝑥_𝑑, where 𝑑 is the number of features.
 
