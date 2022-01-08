@@ -72,7 +72,7 @@ While modeling linear regression, the standard estimation techniques make severa
 
 __Some Assumptions of Linear Regression__
 
-1. Linear regression should be linear in parameters
+1. Linear regression should be linear in parameters.
 
 The response variable,  𝑦  is the function of input variables,  𝑥 's and parameters,  𝛽 's. But the linearity condition is up to parameters. The output variable should be linear in terms of parameters, not necessarily in terms of input variables.
 
@@ -98,7 +98,7 @@ Lastly, the equation below is linear in terms of input but is not linear in term
 	<figcaption></figcaption>
 </figure>
 
-__Error or residuals should have constant variance and no autocorrelation__
+3. Error or residuals should have constant variance and no autocorrelation.
 
 An essential assumption of the linear regression model is that the residuals or errors have the same variance for all data points. This is called the homoscedasticity. If this variance is not constant (i.e. dependent on input variables,  𝑥′ s), then the linear regression model has heteroscedastic errors and this condition of heteroscedasticity might result incorrect parameters.
 
@@ -113,7 +113,7 @@ Similarly, the assumption of no autocorrelation says that the error terms of dif
 
 Usually, in time-series data, we are likely to suffer from autocorrelation because each data in the next instant depends upon the data at the previous instant. So, error terms are somehow correlated.
 
-__There shouldn't be multicollinearity__
+2. There shouldn't be multicollinearity.
 
 Multi colinearity here means perfect colinearity. This assumption is for input variables. In simple linear regression, where we have a single input variable, this assumption doesn't play any role, but in case of multiple linear regression, we should be careful. Any two or more sets of input variables should not be perfectly correlated. Perfect correlation might not make the predictor's matrix full rank, which creates a problem in estimating the parameters.
 
@@ -126,6 +126,6 @@ For example, while predicting the house price, you can have many input variables
 
 In such a situation, it is better to drop one of the three input variables from the linear regression model.
 
-__There should be a random sampling of observations__
+4. There should be a random sampling of observations.
 
 The observations for the linear regression should be randomly sampled from any population. Suppose, you are trying to build a regression model to know the factors that affect the price of the house, then you must select houses randomly from a locality, rather than adopting a convenient sampling procedure. Also, the number of observations should always be higher than the number of parameters to be estimated.
