@@ -132,7 +132,7 @@ The observations for the linear regression should be randomly sampled from any p
 
 __Parameter Estimation Techniques__
 
-Now that you know the assumptions of Linear Regression, it's time you know the techniques to find the parameters, i.e., intercept and regression coefficients. Earlier, we used Scikit-Learn's [`LinearRegression`](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html) predictor object to estimate 𝛽's. It provides us with the optimized $\beta's$. But now you should know how the optimized parameters are being calculated. There are different techniques by which you can find the parameters. Two of them are as follows:
+Now that you know the assumptions of Linear Regression, it's time you know the techniques to find the parameters, i.e., intercept and regression coefficients. Earlier, we used Scikit-Learn's [`LinearRegression`](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html) predictor object to estimate 𝛽's. It provides us with the optimized 𝛽's. But now you should know how the optimized parameters are being calculated. There are different techniques by which you can find the parameters. Two of them are as follows:
 
 - Least Squares Estimation
 
