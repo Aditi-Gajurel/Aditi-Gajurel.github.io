@@ -149,4 +149,6 @@ Now that you know the assumptions of Linear Regression, it's time you know the t
 
 - Maximum Likelihood Estimation
 
-    Maximum likelihood estimation is a well known probabilistic framework for finding parameters that best describe the observed data. You find the parameters by maximizing the conditional probability of observing the data, $x$ given specific probability distribution and its parameters $\beta's$. Detailed discussion on this technique is out of the scope.
+Maximum likelihood estimation is a well known probabilistic framework for finding parameters that best describe the observed data. You find the parameters by maximizing the conditional probability of observing the data, $x$ given specific probability distribution and its parameters $\beta's$. Detailed discussion on this technique is out of the scope.
+
+	
