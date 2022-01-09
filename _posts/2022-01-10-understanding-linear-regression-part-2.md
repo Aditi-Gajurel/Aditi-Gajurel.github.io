@@ -1,10 +1,10 @@
 ---
-title: Understanding Linear Regression [1/4]
+title: Understanding Linear Regression [2/4]
 layout: single
 author_profile: true
 read_time: true
 categories: [Machine Learning]
-excerpt : Assumptions underlying the Linear Regression.
+excerpt : Work in Progress
 
 ---
 
