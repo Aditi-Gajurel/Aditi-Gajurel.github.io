@@ -57,3 +57,11 @@ Thus, to estimate the parameters, we minimize the sum of squared error. Sum of S
 	<img src="/images/7_6.png">
 	<figcaption></figcaption>
 </figure>
+
+yhat  is replaced with the simple linear regression model equation. Since we tend to minimize  SSE , it is also called an objective function. Since the objective function,  SSE  is a squared term, it is always positive. If we plot objective function, it would be a convex graph facing upwards.
+
+<figure>
+	<img src="/images/7_7.png">
+	<figcaption></figcaption>
+</figure>
+
