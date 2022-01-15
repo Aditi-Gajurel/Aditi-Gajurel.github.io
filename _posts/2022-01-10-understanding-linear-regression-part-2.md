@@ -94,4 +94,27 @@ Now, applying power rule and chain rule, we get:
 
 Now, with respect to  𝛽1:
 
+<figure>
+	<img src="/images/7_11.png">
+	<figcaption></figcaption>
+</figure>
 
+Again, the derivative of the sum is the sum of the derivatives, So, we take the derivative inside the summation.
+<figure>
+	<img src="/images/7_12.png">
+	<figcaption></figcaption>
+</figure>
+
+Applying power rule,  2  comes out front and exponent becomes  1 . We will also apply chain rule to encounter the coefficient of  𝛽1 .
+
+<figure>
+	<img src="/images/7_13.png">
+	<figcaption></figcaption>
+</figure>
+
+Cleaning up a bit,
+
+<figure>
+	<img src="/images/7_13.png">
+	<figcaption></figcaption>
+</figure>
