@@ -72,3 +72,26 @@ Note: To avoid a little clutter in the derivation below, we will not include the
 
 Taking partial derivatives with respect to  𝛽0:
 
+<figure>
+	<img src="/images/7_8.png">
+	<figcaption></figcaption>
+</figure>
+
+Note that the derivative of the sum is the sum of the derivatives. So, we can take the derivative inside the summation.
+
+
+<figure>
+	<img src="/images/7_9.png">
+	<figcaption></figcaption>
+</figure>
+
+Now, applying power rule and chain rule, we get:
+
+<figure>
+	<img src="/images/7_10.png">
+	<figcaption></figcaption>
+</figure>
+
+Now, with respect to  𝛽1:
+
+
