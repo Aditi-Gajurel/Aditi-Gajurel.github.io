@@ -65,3 +65,9 @@ yhat  is replaced with the simple linear regression model equation. Since we ten
 	<figcaption></figcaption>
 </figure>
 
+The parameters at a minimum point are obtained from calculus by setting the first derivative of the objective function to 0. Gradient or slope is always 0 at the minimum point. This statement is extended in the upcoming chapter, Gradient Descent in detail. We have two unknown parameters, intercept (𝛽0) and slope (𝛽1) so, we will take the partial derivative of SSE with respect to  𝛽0  and  𝛽1  separately. We will set both partial derivatives to 0 and solve for 𝛽0 and 𝛽1 separately.
+
+Note: To avoid a little clutter in the derivation below, we will not include the summation index. As said earlier, the summation is always indexed from 1 to 𝑛, 𝑛 being the number of samples.
+
+Taking partial derivatives with respect to  𝛽0:
+
