@@ -50,3 +50,10 @@ Where  𝜖𝑖  is a random error, not a parameter. The error 𝜖𝑖 as (y-yh
 </figure>
 
 The summation is indexed from  1 to 𝑛, since we have 𝑛 samples. Sum of Squared Errors (SSE) is the function of  𝛽0 and 𝛽1 . We can also take it as Loss function. The main principle of Least Squares is that we should end up choosing intercept (𝛽0) and slope (𝛽1) such that the overall sum is minimum.
+
+Thus, to estimate the parameters, we minimize the sum of squared error. Sum of Squared Errors (SSE) can also be written as:
+
+<figure>
+	<img src="/images/7_6.png">
+	<figcaption></figcaption>
+</figure>
