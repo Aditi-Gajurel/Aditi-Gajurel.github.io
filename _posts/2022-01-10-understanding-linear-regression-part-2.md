@@ -167,4 +167,45 @@ Now, isolating the  𝑛𝛽0  term, we get:
 	<figcaption></figcaption>
 </figure>
 
+Dividing both sides by 𝑛, we get:
+
+<figure>
+	<img src="/images/7_21.png">
+	<figcaption></figcaption>
+</figure>
+
+The sum of all 𝑦′𝑠 divided by 𝑛 gives the mean or average and so is for 𝑥′𝑠. So, we end up with:
+
+<figure>
+	<img src="/images/7_22.png">
+	<figcaption></figcaption>
+</figure>
+
+But this doesn't work without knowing the value of  𝛽1 . So, we substitute this expression of  𝛽0  to the equation where the partial derivative of 𝛽1 is set to  0.
+
+Hence, solving for  𝛽1,
+
+<figure>
+	<img src="/images/7_23.png">
+	<figcaption></figcaption>
+</figure>
+
+We can divide both sides by −2 so that we get,
+
+<figure>
+	<img src="/images/7_24.png">
+	<figcaption></figcaption>
+</figure>
+
+Substituting  𝛽0, we get:
+
+<figure>
+	<img src="/images/7_25.png">
+	<figcaption></figcaption>
+</figure>
+
+
+
+
+
 
