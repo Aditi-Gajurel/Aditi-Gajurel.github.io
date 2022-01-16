@@ -115,6 +115,19 @@ Applying power rule,  2  comes out front and exponent becomes  1 . We will also 
 Cleaning up a bit,
 
 <figure>
-	<img src="/images/7_13.png">
+	<img src="/images/7_14.png">
 	<figcaption></figcaption>
 </figure>
+
+Now, we set up the partial derivatives equal to  0  for equation (1) and (2).
+
+<figure>
+	<img src="/images/7_15.png">
+	<figcaption></figcaption>
+</figure>
+
+Here, we have two equations and two unknowns, and we are going to solve this to find our parameters. But how do we get that?
+
+First, we will get an expression for 𝛽0 from the first equation. That expression would involve 𝛽1, and we will substitute that equation in the second equation and solve for 𝛽1. Let's solve the first equation.
+
+
