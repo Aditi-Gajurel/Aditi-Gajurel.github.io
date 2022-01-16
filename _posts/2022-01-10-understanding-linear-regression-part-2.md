@@ -130,4 +130,41 @@ Here, we have two equations and two unknowns, and we are going to solve this to 
 
 First, we will get an expression for 𝛽0 from the first equation. That expression would involve 𝛽1, and we will substitute that equation in the second equation and solve for 𝛽1. Let's solve the first equation.
 
+Solving for  𝛽0  equating equation (1) to 0,
+
+<figure>
+	<img src="/images/7_16.png">
+	<figcaption></figcaption>
+</figure>
+
+We can divide both sides by  −2  so that we get,
+
+<figure>
+	<img src="/images/7_17.png">
+	<figcaption></figcaption>
+</figure>
+
+If we carry the summation term through each terms inside the bracket, we get:
+
+<figure>
+	<img src="/images/7_18.png">
+	<figcaption></figcaption>
+</figure>
+
+Note that with respect to summation, 𝛽0 and 𝛽1 are constants. Statistically, they are random variables that take on any random value. But the values they take are constant over the samples. With respect to summation over the samples, they are constants so they can come outside the summation term as:
+
+<figure>
+	<img src="/images/7_19.png">
+	<figcaption></figcaption>
+</figure>
+
+The sum of 𝛽0 from 1 to 𝑛 turns to 𝑛𝛽0 and 𝛽1 comes out of the summation term.
+
+Now, isolating the  𝑛𝛽0  term, we get:
+
+<figure>
+	<img src="/images/7_20.png">
+	<figcaption></figcaption>
+</figure>
+
 
