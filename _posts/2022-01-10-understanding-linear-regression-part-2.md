@@ -160,7 +160,7 @@ Note that with respect to summation, 𝛽0 and 𝛽1 are constants. Statisticall
 
 The sum of 𝛽0 from 1 to 𝑛 turns to 𝑛𝛽0 and 𝛽1 comes out of the summation term.
 
-Now, isolating the  𝑛𝛽0  term, we get:
+Now, isolating the  𝑛𝛽0 term, we get:
 
 <figure>
 	<img src="/images/7_20.png">
@@ -203,6 +203,7 @@ Substituting  𝛽0, we get:
 	<img src="/images/7_25.png">
 	<figcaption></figcaption>
 </figure>
+
 
 
 
