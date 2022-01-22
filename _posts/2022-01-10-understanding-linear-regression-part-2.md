@@ -197,12 +197,20 @@ We can divide both sides by −2 so that we get,
 	<figcaption></figcaption>
 </figure>
 
-Substituting  𝛽0, we get:
+Substituting 𝛽0, we get:
 
 <figure>
 	<img src="/images/7_25.png">
 	<figcaption></figcaption>
 </figure>
+
+ Now, we are getting somewhere since the unknown in the above expression is only  𝛽1 . Now, we will find a way to isolate  𝛽1 . Let's first gather similar terms together.
+
+<figure>
+	<img src="/images/7_26.png">
+	<figcaption></figcaption>
+</figure>
+
 
 
 
