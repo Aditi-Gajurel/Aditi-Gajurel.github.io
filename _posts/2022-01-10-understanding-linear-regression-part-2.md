@@ -211,6 +211,10 @@ Substituting 𝛽0, we get:
 	<figcaption></figcaption>
 </figure>
 
+<figure>
+	<img src="/images/7_27.png">
+	<figcaption></figcaption>
+</figure>
 
 
 
