@@ -216,6 +216,12 @@ Substituting 𝛽0, we get:
 	<figcaption></figcaption>
 </figure>
 
+So, now we proved the similarity of the denominator and numerator terms of both expressions of 𝛽1 .
+
+Since the parameters are estimates, we usually put hats on them. The key equations of the estimated parameters for simple linear regression are:
+
+
+
 
 
 
