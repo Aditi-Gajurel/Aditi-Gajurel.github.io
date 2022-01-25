@@ -286,3 +286,65 @@ ax.set_ylabel("sales")
 plt.show()
 ```
 
+<figure>
+	<img src="/images/7_30.png">
+	<figcaption></figcaption>
+</figure>
+
+The first plot shows a sharp upward trend in the number of units sold as TV advertising increases. A similar trend is also found as radio advertising increases. However, in the last plot, there does not appear to be a relationship between newspaper advertising and the number of units sold.
+
+
+__Simple Linear Regression with Ordinary Least squares__
+Earlier we used Scikit-Learn's LinearRegression predictor object to estimate  𝛽0  and  𝛽1 . Now, we will implement the formulas derived from OLS to estimate the parameters.
+
+```
+fig = plt.figure(figsize=(15,4))
+gs = mpl.gridspec.GridSpec(1,3)
+
+# function for training model and plotting
+def train_plot(data_df, feature, ax, c):
+
+  # initializing our inputs and outputs
+  X = data_df[[feature]].values
+  Y = data_df[["sales"]].values
+
+  # mean of our inputs and outputs
+  x_mean = np.mean(X)
+  y_mean = np.mean(Y)
+
+  #total number of samples
+  n = len(X)
+
+  # using the OLS formula to calculate the b1 and b0
+  numerator = 0
+  denominator = 0
+  for i in range(n):
+    numerator += (X[i] - x_mean) * (Y[i] - y_mean)
+    denominator += (X[i] - x_mean) ** 2
+
+  b1 = numerator / denominator
+  b0 = y_mean - (b1 * x_mean)
+  y_hat = b0 + np.dot(X,b1)
+  
+  ##Plot the regression line
+  ax.scatter(data_df[feature], data_df["sales"], color=c, marker=".")
+  ax.plot(X, y_hat, color="black")
+  ax.set_xlabel(feature)
+  ax.set_ylabel("sales")
+  ax.set_title(("$y$ = %3f + %3f$x$" %(b0, b1)))
+
+    
+# Train model using TV data to predict sales
+ax0 = fig.add_subplot(gs[0])
+train_plot(data_df, "TV", ax0, "red")
+
+# Train model using radio data to predict sales
+ax1 = fig.add_subplot(gs[1])
+train_plot(data_df, "radio", ax1, "green")
+
+# Train model using newspaper data to predict sales
+ax2 = fig.add_subplot(gs[2])
+train_plot(data_df, "newspaper", ax2, "blue")
+
+plt.show()
+```
