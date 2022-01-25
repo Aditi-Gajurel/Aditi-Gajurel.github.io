@@ -222,16 +222,67 @@ Since the parameters are estimates, we usually put hats on them. The key equatio
 
 
 <figure>
-	<img src="/images/7_27.png">
+	<img src="/images/7_28.png">
 	<figcaption></figcaption>
 </figure>
 
 From the samples provided, first we find  𝛽1  from the first expression and substitute the value of  𝛽1  in the second expression for 𝛽0 .
 
+__Implementation on Real World Dataset__
+For implementation, we will use same Advertising dataset.
+
+A popular introductory statistics book, An Introduction to Statistical Learning, provides this dataset on their website. This dataset can be downloaded from the following address:
+
+http://faculty.marshall.usc.edu/gareth-james/ISL/Advertising.csv
+This dataset has got three inputs as advertising mediums, i.e. TV, radio and newspaper. Similarly the output variable is sales. This is a sales prediction problem with investment in any of the advertising mediums.
 
 
+```
+# Imports
+import numpy as np
+import pandas as pd
+import matplotlib as mpl
+from matplotlib import pyplot as plt
+```
 
+```
+data_path = "https://storage.googleapis.com/codehub-data/1-lv2-2-2-Advertisement.csv" 
 
+# Read the CSV data from the link
+data_df = pd.read_csv(data_path,index_col=0)
 
+# Print out first 5 samples from the DataFrame
+data_df.head()
+```
 
+Output: 
+<figure>
+	<img src="/images/7_29.png">
+	<figcaption></figcaption>
+</figure>
+
+```
+fig = plt.figure(figsize=(15,4))
+gs = mpl.gridspec.GridSpec(1,3)
+
+# Plot of sales vs TV
+ax = fig.add_subplot(gs[0])
+ax.scatter(data_df["TV"], data_df["sales"], color="red", marker=".")
+ax.set_xlabel("TV")
+ax.set_ylabel("sales")
+
+# Plot of sales vs radio
+ax = fig.add_subplot(gs[1])
+ax.scatter(data_df["radio"], data_df["sales"], color="green", marker=".")
+ax.set_xlabel("radio")
+ax.set_ylabel("sales")
+
+# Plot of sales vs newspaper
+ax = fig.add_subplot(gs[2])
+ax.scatter(data_df["newspaper"], data_df["sales"], color="blue", marker=".")
+ax.set_xlabel("newspaper")
+ax.set_ylabel("sales")
+
+plt.show()
+```
 
