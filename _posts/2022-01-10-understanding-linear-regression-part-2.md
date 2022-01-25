@@ -348,3 +348,27 @@ train_plot(data_df, "newspaper", ax2, "blue")
 
 plt.show()
 ```
+
+<figure>
+	<img src="/images/7_30.png">
+	<figcaption></figcaption>
+</figure>
+
+Here, we performed a simple linear regression in each of the scatter plots.
+
+__TV vs. sales__
+
+TV is the input variable, one of the advertising mediums and sales is the output variable. Parameters estimated from OLS has done pretty good work in fitting the data points. The intercept ( 𝛽0 ) has been estimated as  7.03  and slope ( 𝛽1 ) has been estimated as  0.04 . The values of the parameters through OLS are the same to that through Scikit-Learn. The first plot depicts the simple linear regression with input as TV and output as sales.
+
+__radio vs. sales__
+
+radio is the input variable, one of the advertising mediums, and sales is the output variable. Parameters estimated from OLS has done pretty good work in fitting the data points. The intercept ( 𝛽0 ) has been estimated as  9.31  and slope ( 𝛽1 ) has been estimated as  0.21 . The values of the parameters through OLS are the same to that through Scikit-Learn.The second plot depicts the simple linear regression with input as radio and output as sales.
+
+__newspaper vs. sales__
+
+newspaper is the input variable, which is one of the advertising mediums, and sales is the output variable. Parameters estimated from OLS has done pretty good work in fitting the data points. The intercept ( 𝛽0 ) has been estimated as  12.35  and slope ( 𝛽1 ) has been estimated as  0.05 . The values of the parameters through OLS is the same as that through Scikit-Learn.The third plot depicts the simple linear regression with input as newspaper and output as sales.
+
+You can check out previous reading material to ensure the similarity of the values of parameters.
+
+
+
