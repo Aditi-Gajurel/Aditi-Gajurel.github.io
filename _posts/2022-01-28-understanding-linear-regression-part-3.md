@@ -4,7 +4,7 @@ layout: single
 author_profile: true
 read_time: true
 categories: [Machine Learning]
-excerpt : Simple Linear Regression
+excerpt : Work in Progress
 ---
 
 __Ordinary Least Squares with Simple Linear Regression__
