@@ -25,6 +25,42 @@ From L1 content, you have the idea of Multiple Linear Regression. Let's recall a
 
 𝜖 is the random error or residual, which reflects the difference between the actual output point and predicted output point.
 
+Multiple linear regression involves more than one input variable, so it is impossible to individually derive a solution for each regression coefficient for each input variable. In a sophisticated regression problem dimension (𝑑 ) can range to very higher values.
+
+So, how do we estimate all regression coefficients?
+
+From multiple linear regresssion model, we have:
+
+<figure>
+	<img src="/images/8_3.png">
+	<figcaption></figcaption>
+</figure>
+
+We have 𝑛 set of observations. So we can write:
+
+<figure>
+	<img src="/images/8_4.png">
+	<figcaption></figcaption>
+</figure>
+
+Xnd  is the 𝑛th observation for  𝑑th feature or input variable. These 𝑛 set of equations can be written in matrix form as:
+
+<figure>
+	<img src="/images/8_5.png">
+	<figcaption></figcaption>
+</figure>
+
+Using mathematical notations, we can write as:
+
+<figure>
+	<img src="/images/8_6.png">
+	<figcaption></figcaption>
+</figure>
+
+𝐲 is a n×1 column matrix where each element is the observed value of output variable. Similarly, 𝐗 is n×(d+1)  matrix. An extra dimension is due to the inclusion of 1′𝑠 in the first column. You can interpret the first column, including 1′s as being multiplied against 𝛽0. There are (d+1) unknown parameters, d regression coefficients for each of the input variables and 1 extra for the intercept, 𝛽0 .So 𝜷 is (d+1)×1 column matrix.
+
+
+
 
 
 
