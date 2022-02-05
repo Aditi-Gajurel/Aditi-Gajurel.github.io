@@ -98,4 +98,15 @@ so we can also write  SSE  as:
 
 This positive quadratic error function or SSE or objective function is always a convex surface facing upwards as in a simple linear equation. From calculus, the value of parameters at the minimum point is obtained by setting the first derivative of the objective function, with respect to the parameters, equal to 0. So, we will take the partial derivative of the objective function, with respect to 𝜷, and get the value for the column matrix, 𝜷.
 
+<figure>
+	<img src="/images/8_12.png">
+	<figcaption></figcaption>
+</figure>
+
+You can take a pen and paper and try expanding the product term to the sums. You have to use basic transpose rules and matrix multiplication rules. That's it! Now, we will set the derivative to 0 as:
+
+<figure>
+	<img src="/images/8_13.png">
+	<figcaption></figcaption>
+</figure>
 
