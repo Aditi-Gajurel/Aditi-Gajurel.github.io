@@ -110,3 +110,5 @@ You can take a pen and paper and try expanding the product term to the sums. You
 	<figcaption></figcaption>
 </figure>
 
+__Code Implementation__
+
