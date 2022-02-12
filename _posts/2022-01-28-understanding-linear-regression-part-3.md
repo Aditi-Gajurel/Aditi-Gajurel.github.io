@@ -105,11 +105,20 @@ This positive quadratic error function or SSE or objective function is always a 
 
 You can take a pen and paper and try expanding the product term to the sums. You have to use basic transpose rules and matrix multiplication rules. That's it! Now, we will set the derivative to 0 as:
 
-
 <figure>
 	<img src="/images/8_13.png">
 	<figcaption></figcaption>
 </figure>
+
+As we saw for the column vector ϵ we know:
+
+<figure>
+	<img src="/images/8_14.png">
+	<figcaption></figcaption>
+</figure>
+
+
+
 
 
 
