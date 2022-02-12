@@ -118,7 +118,17 @@ As we saw for the column vector ϵ we know:
 </figure>
 
 
+This can be written as:
 
+<figure>
+	<img src="/images/8_15.png">
+	<figcaption></figcaption>
+</figure>
 
+Cancelling 2 on both sides and isolating β, we get:
 
+<figure>
+	<img src="/images/8_15.png">
+	<figcaption></figcaption>
+</figure>
 
