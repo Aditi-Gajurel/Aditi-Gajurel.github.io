@@ -1,5 +1,5 @@
 ---
-title: Understanding Linear Regression [2/4]
+title: Understanding Linear Regression [2/3]
 layout: single
 author_profile: true
 read_time: true
