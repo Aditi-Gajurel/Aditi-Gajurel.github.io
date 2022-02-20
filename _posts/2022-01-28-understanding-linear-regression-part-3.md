@@ -1,5 +1,5 @@
 ---
-title: Understanding Linear Regression [3/4]
+title: Understanding Linear Regression [3/3]
 layout: single
 author_profile: true
 read_time: true
@@ -131,4 +131,8 @@ Cancelling 2 on both sides and isolating β, we get:
 	<img src="/images/8_15.png">
 	<figcaption></figcaption>
 </figure>
+
+
+
+
 
